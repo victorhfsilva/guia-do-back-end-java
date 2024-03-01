@@ -43,6 +43,14 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Queue](./Java/Estruturas%20de%20Dados/5.%20Queue(Fila,%20LinkedList).md)
 - [Stack](./Java/Estruturas%20de%20Dados/6.%20Stack(Pilha).md)
 
+#### Collections
+
+- [List](./Java/Collections/List.md)
+- [Set](./Java/Collections/Set.md)
+- [Map](./Java/Collections/Map.md)
+- [Interface Comparable](./Java/Collections/Comparable.md)
+- [Interface Iterable](./Java/Collections/Iterable-Iterator.md)
+
 
 
 ## 🤝 Contribua!
