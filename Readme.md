@@ -59,6 +59,17 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Equals e Hashcode](./Java/Orientação%20a%20Objetos/4.%20Equals-HashCode.md)
 - [toString](./Java/Orientação%20a%20Objetos/5.%20toString.md)
 
+#### Programação Funcional
+
+- [Classes Anônimas](./Java/Programação%20Funcional/Classe-Anônima.md)
+- [Expressões Lambda](./Java/Programação%20Funcional/Expressões-Lambda.md)
+- [Reference Method](./Java/Programação%20Funcional/Reference-Method.md)
+- [Interfaces Funcionais](./Java/Programação%20Funcional/Interfaces-Funcionais.md)
+- [Tipos de Interfaces Funcionais](./Java/Programação%20Funcional/Tipos-de-Interfaces-Funcionais.md)
+- [Callbacks](./Java/Programação%20Funcional/Callbacks.md)
+- [Streams](./Java/Programação%20Funcional/Operações-do-Stream.md)
+- [Padrão Combinator](./Java/Programação%20Funcional/Combinator-Pattern.md)
+- [Optional](./Java/Programação%20Funcional/Optional.md)
 
 ## 🤝 Contribua!
 
