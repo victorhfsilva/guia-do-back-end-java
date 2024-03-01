@@ -71,6 +71,17 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Padrão Combinator](./Java/Programação%20Funcional/Combinator-Pattern.md)
 - [Optional](./Java/Programação%20Funcional/Optional.md)
 
+
+### Design Patterns
+
+#### Criacionais 
+
+- [Factory](./Design%20Patterns/Padrões%20Criacionais/Factory.md)
+- [Abstract Factory](./Design%20Patterns/Padrões%20Criacionais/Abstract-Factory.md)
+- [Builder](./Design%20Patterns/Padrões%20Criacionais/Builder.md)
+- [Prototype](./Design%20Patterns/Padrões%20Criacionais/Prototype.md)
+- [Singleton](./Design%20Patterns/Padrões%20Criacionais/Singleton.md)
+
 ## 🤝 Contribua!
 
 Este guia está em constante crescimento, e sua contribuição é mais do que bem-vinda! Se você tem dicas, exemplos adicionais ou quer corrigir algo, sinta-se à vontade para abrir uma issue ou enviar um pull request. Vamos tornar este guia ainda mais incrível!
