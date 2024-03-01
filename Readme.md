@@ -34,6 +34,17 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Palavras Reservadas](./Java/Sintaxe%20Básica/12.%20Palavras-Reservadas.md)
 - [Testes com Assert](./Java/Sintaxe%20Básica/13.%20Assert.md)
 
+#### Estruturas de Dados
+
+- [ArrayList](./Java/Estruturas%20de%20Dados/1.%20ArrayList.md)
+- [Equals e HashCode](./Java/Estruturas%20de%20Dados/2.%20Equals-HashCode.md)
+- [Hashset](./Java/Estruturas%20de%20Dados/3.%20HashSet.md)
+- [HashMap](./Java/Estruturas%20de%20Dados/4.%20HashMap.md)
+- [Queue](./Java/Estruturas%20de%20Dados/5.%20Queue(Fila,%20LinkedList).md)
+- [Stack](./Java/Estruturas%20de%20Dados/6.%20Stack(Pilha).md)
+
+
+
 ## 🤝 Contribua!
 
 Este guia está em constante crescimento, e sua contribuição é mais do que bem-vinda! Se você tem dicas, exemplos adicionais ou quer corrigir algo, sinta-se à vontade para abrir uma issue ou enviar um pull request. Vamos tornar este guia ainda mais incrível!
