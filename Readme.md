@@ -8,9 +8,6 @@ Gosto muito do site [roadmap.sh](https://roadmap.sh/), pois nele é possível en
 
 Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenvolvimento backend é uma jornada pessoal, e você pode adaptar seu percurso de acordo com seus interesses, necessidades e objetivos. Use este roadmap como uma bússola, mas sinta-se à vontade para explorar caminhos que despertem mais sua curiosidade.
 
-### Roadmap Java
-![Trilha do Java](./Imagens/trilha-do-java.png)
-
 ### Roadmap Backend
 ![Trilha Back End](./Imagens/trilha-do-backend.png)
 
@@ -81,6 +78,17 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Builder](./Design%20Patterns/Padrões%20Criacionais/Builder.md)
 - [Prototype](./Design%20Patterns/Padrões%20Criacionais/Prototype.md)
 - [Singleton](./Design%20Patterns/Padrões%20Criacionais/Singleton.md)
+
+#### Estruturais
+
+- [Adapter](./Design%20Patterns/Padrões%20Estruturais/Adapter.md)
+- [Bridge](./Design%20Patterns/Padrões%20Estruturais/Bridge.md)
+- [Composite](./Design%20Patterns/Padrões%20Estruturais/Composite.md)
+- [Decorator](./Design%20Patterns/Padrões%20Estruturais/Decorator.md)
+- [Facade](./Design%20Patterns/Padrões%20Estruturais/Facade.md)
+- [Flyweight](./Design%20Patterns/Padrões%20Estruturais/Flyweight.md)
+- [Proxy](./Design%20Patterns/Padrões%20Estruturais/Proxy.md)
+
 
 ## 🤝 Contribua!
 
