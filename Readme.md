@@ -68,6 +68,14 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Padrão Combinator](./Java/Programação%20Funcional/Combinator-Pattern.md)
 - [Optional](./Java/Programação%20Funcional/Optional.md)
 
+#### Testes com JUnit
+
+- [Métodos de Teste](./Java/JUnit/Métodos-de-Teste.md)
+- [Testando Exceções](./Java/JUnit/Testando-Exceções.md)
+- [Ordenando Testes](./Java/JUnit/Ordenando-Testes.md)
+- [After e Before](./Java/JUnit/After-Before.md)
+- [Conditionals](./Java/JUnit/Conditionals.md)
+- [Assuptions](./Java/JUnit/Assumptions.md)
 
 ### Design Patterns
 
