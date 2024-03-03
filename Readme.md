@@ -81,7 +81,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 
 - [Java: TutorialsPoint](https://www.tutorialspoint.com/java/index.htm)
 
-### 1. Kotlin
+### Kotlin
 
 - [Sintaxe Básica](./Kotlin/Sintaxe%20Básica.md)
 - [Comentários](./Kotlin/Comentários.md)
@@ -156,6 +156,21 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Strategy](./Design%20Patterns/Padrões%20Comportamentais/Strategy.md)
 - [Template](./Design%20Patterns/Padrões%20Comportamentais/Template.md)
 - [Visitor](./Design%20Patterns/Padrões%20Comportamentais/Visitor.md)
+
+### Build Tools
+
+- [Gradle](./Build%20Tools/Gradle.md)
+- [Maven](./Build%20Tools/Maven.md)
+
+#### Referências
+
+- [Maven Repository](https://mvnrepository.com/)
+- [Running Apache Maven](https://maven.apache.org/run.html)
+- [Getting Started with Gradle](https://docs.gradle.org/current/userguide/getting_started_eng.html)
+
+### Spring
+
+####
 
 ## 🤝 Contribua!
 
