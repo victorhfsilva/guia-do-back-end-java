@@ -89,6 +89,18 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Flyweight](./Design%20Patterns/Padrões%20Estruturais/Flyweight.md)
 - [Proxy](./Design%20Patterns/Padrões%20Estruturais/Proxy.md)
 
+#### Comportamentais
+
+- [Chain of Responsability](./Design%20Patterns/Padrões%20Comportamentais/Chain%20of%20Responsability.md)
+- [Command](./Design%20Patterns/Padrões%20Comportamentais/Command.md)
+- [Iterator](./Design%20Patterns/Padrões%20Comportamentais/Iterator.md)
+- [Mediator](./Design%20Patterns/Padrões%20Comportamentais/Mediator.md)
+- [Memento](./Design%20Patterns/Padrões%20Comportamentais/Memento.md)
+- [Observer](./Design%20Patterns/Padrões%20Comportamentais/Observer.md)
+- [State](./Design%20Patterns/Padrões%20Comportamentais/State.md)
+- [Strategy](./Design%20Patterns/Padrões%20Comportamentais/Strategy.md)
+- [Template](./Design%20Patterns/Padrões%20Comportamentais/Template.md)
+- [Visitor](./Design%20Patterns/Padrões%20Comportamentais/Visitor.md)
 
 ## 🤝 Contribua!
 
