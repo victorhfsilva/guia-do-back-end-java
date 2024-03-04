@@ -26,4 +26,12 @@ spring.jpa.hibernate.ddl-auto=none
 
 Dessa forma, você garante que o esquema e os dados são criados e inseridos somente a partir dos arquivos SQL definidos nas propriedades `schema-locations` e `data-locations`, e o Hibernate não interferirá na criação do esquema.
 
-Lembre-se de que a configuração do banco de dados e a inicialização do esquema e dados podem variar dependendo do banco de dados que você está usando, e as localizações dos arquivos SQL devem ser ajustadas de acordo com a estrutura do seu projeto. Certifique-se de configurar essas propriedades de acordo com suas necessidades específicas.
+**3. Inicialização tardia do data source:**
+
+A configuração spring.jpa.defer-datasource-initialization=true no Spring Boot indica que a inicialização do datasource (fonte de dados) será adiada até que o Hibernate esteja pronto para usá-lo.
+
+```
+spring.jpa.defer-datasource-initialization=true
+```
+
+Quando essa configuração é habilitada, o Spring Boot adia a inicialização do datasource até o Hibernate estar totalmente configurado e pronto para usá-lo. Isso pode ser útil em cenários em que a configuração do Hibernate depende de outras configurações ou beans do Spring que precisam ser totalmente inicializados primeiro.
