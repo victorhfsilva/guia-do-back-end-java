@@ -195,7 +195,15 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Estratégias de Herança](./Spring/Spring%20Data%20JPA/Entidades/Herança.md)
 - [Datas e Horas](./Spring/Spring%20Data%20JPA/Entidades/Datas%20e%20Horas.md)
 
+##### Repositórios
 
+- [Jpa Repository](./Spring/Spring%20Data%20JPA/Repositórios/JPARepository.md)
+- [Crud Repository](./Spring/Spring%20Data%20JPA/Repositórios/CrudRepository.md)
+- [Paging And Sorting Repository](./Spring/Spring%20Data%20JPA/Repositórios/PagingAndSortingRepository.md)
+- [JPQL](./Spring/Spring%20Data%20JPA/Repositórios/JPQL.md)
+- [Repositórios Personalizados](./Spring/Spring%20Data%20JPA/Repositórios/Repositórios%20Personalizados.md)
+- [Spring Data Rest](./Spring/Spring%20Data%20JPA/Repositórios/Spring%20Data%20Rest.md)
+- [Transactional](./Spring/Spring%20Data%20JPA/Repositórios/Transactional.mdS)
 
 #### Validações
 
