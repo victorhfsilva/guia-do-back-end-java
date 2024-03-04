@@ -157,7 +157,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Template](./Design%20Patterns/Padrões%20Comportamentais/Template.md)
 - [Visitor](./Design%20Patterns/Padrões%20Comportamentais/Visitor.md)
 
-### Build Tools
+### Building Tools
 
 - [Gradle](./Build%20Tools/Gradle.md)
 - [Maven](./Build%20Tools/Maven.md)
@@ -170,7 +170,37 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 
 ### Spring
 
-####
+#### Spring Boot
+
+- [Anotações](./Spring/Spring%20Boot/Anotações.md)
+- [Beans](./Spring/Spring%20Boot/Beans.md)
+- [Escopo dos Beans](./Spring/Spring%20Boot/Escopo-dos-Beans.md)
+- [Injeção de Dependências](./Spring/Spring%20Boot/Injeção-de-Dependências.md)
+- [Value](./Spring/Spring%20Boot/Value.md)
+- [Configuration Properties](./Spring/Spring%20Boot/Configuration%20Properties.md)
+- [Command Line Runner](./Spring/Spring%20Boot/CommandLineRunner.md)
+- [Logger](./Spring/Spring%20Boot/Logger.md)
+
+#### Spring Data JPA
+
+##### Entidades
+
+- [JPA e ORM](./Spring/Spring%20Data%20JPA/Entidades/JPA%20e%20ORM.md)
+- [Anotação Generated Value](./Spring/Spring%20Data%20JPA/Entidades/GeneratedValue.md/)
+- [Anotação Collumn](./Spring/Spring%20Data%20JPA/Entidades/Collumn.md)
+- [Relacionamentos](./Spring/Spring%20Data%20JPA/Entidades/Relacionamentos.md)
+- [FetchType](./Spring/Spring%20Data%20JPA/Entidades/Fetch%20Type.md)
+- [CascadeType](./Spring/Spring%20Data%20JPA/Entidades/CascadeType.md)
+- [Chaves Compostas](./Spring/Spring%20Data%20JPA/Entidades/Chaves%20Compostas.md)
+- [Estratégias de Herança](./Spring/Spring%20Data%20JPA/Entidades/Herança.md)
+- [Datas e Horas](./Spring/Spring%20Data%20JPA/Entidades/Datas%20e%20Horas.md)
+
+
+
+#### Validações
+
+- [Hibernate Validator](./Spring/Spring%20Data%20JPA/Validações/Validator.md)
+- [Validação de Senhas com o Passay](./Spring/Spring%20Data%20JPA/Validações/Passay.md) 
 
 ## 🤝 Contribua!
 
