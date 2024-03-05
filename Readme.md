@@ -205,10 +205,28 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Spring Data Rest](./Spring/Spring%20Data%20JPA/Repositórios/Spring%20Data%20Rest.md)
 - [Transactional](./Spring/Spring%20Data%20JPA/Repositórios/Transactional.mdS)
 
+#### Spring Web
+
+- [RestController](./Spring/Spring%20Web/RestController.md)
+- [RequestMapping](./Spring/Spring%20Web/RequestMapping.md)
+- [ResponseEntity](./Spring/Spring%20Web/ResponseEntity.md)
+- [HttpHeaders](./Spring/Spring%20Web/HttpHeaders.md)
+- [CrossOrigin](./Spring/Spring%20Web/CrossOrigin.md)
+- [ControllerAdvice](./Spring/Spring%20Web/ControllerAdvice.md)
+- [Consumindo uma API com o RestTemplate](./Spring/Spring%20Web/RestTemplate.md)
+- [HttpEntity](./Spring/Spring%20Web/HttpEntity.md)
+
 #### Validações
 
 - [Hibernate Validator](./Spring/Spring%20Data%20JPA/Validações/Validator.md)
 - [Validação de Senhas com o Passay](./Spring/Spring%20Data%20JPA/Validações/Passay.md) 
+
+#### Serialização
+
+- [Jackson](./Spring/Serialização/Jackson.md)
+- [Jackson Serializer](./Spring/Serialização/JacksonSerializer.md)
+- [Jackson Deserializer](./Spring/Serialização/JacksonDeserializer.md)
+
 
 ## 🤝 Contribua!
 
