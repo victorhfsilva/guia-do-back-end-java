@@ -77,6 +77,14 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Conditionals](./Java/JUnit/Conditionals.md)
 - [Assuptions](./Java/JUnit/Assumptions.md)
 
+#### Mockito
+
+- [Mockito](./Java/Mockito/Mockito.md)
+- [Spy](./Java/Mockito/Spy.md)
+- [Matchers](./Java/Mockito/Matchers.md)
+- [ArgumentCaptor](./Java/Mockito/ArgumentCaptor.md)
+- [MockedStatic](./Java/Mockito/MockedStatic.md)
+
 #### Referências
 
 - [Java: TutorialsPoint](https://www.tutorialspoint.com/java/index.htm)
@@ -227,6 +235,12 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Jackson Serializer](./Spring/Serialização/JacksonSerializer.md)
 - [Jackson Deserializer](./Spring/Serialização/JacksonDeserializer.md)
 
+#### Testes
+
+- [Testando Repositórios](./Spring/Testes/Testando%20Repositórios.md)
+- [Mocks](./Spring/Testes/Mocks.md)
+- [Testes de Integração REST](./Spring/Testes/Teste%20de%20Integração%20REST.md)
+- [Testes Unitários REST](./Spring/Testes/Teste%20Unitário%20REST.md)
 
 ## 🤝 Contribua!
 
