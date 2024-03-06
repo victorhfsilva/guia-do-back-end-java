@@ -1,4 +1,4 @@
-# Testes de Integração de REST APIs com Spring Boot
+# Testes de Integração de REST APIs com Rest Template
 
 Os testes de integração são fundamentais para garantir que sua API REST funcione corretamente em um ambiente semelhante ao de produção. Com o Spring Boot, você pode escrever testes de integração eficazes usando o `TestRestTemplate`. Vamos explorar como configurar e escrever testes de integração para sua API REST com exemplos práticos.
 

@@ -76,6 +76,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [After e Before](./Java/JUnit/After-Before.md)
 - [Conditionals](./Java/JUnit/Conditionals.md)
 - [Assuptions](./Java/JUnit/Assumptions.md)
+- [Testes Parametrizados](./Java/JUnit/Testes-Parametrizados.md)
 
 #### Mockito
 
@@ -239,8 +240,12 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 
 - [Testando Repositórios](./Spring/Testes/Testando%20Repositórios.md)
 - [Mocks](./Spring/Testes/Mocks.md)
-- [Testes de Integração REST](./Spring/Testes/Teste%20de%20Integração%20REST.md)
-- [Testes Unitários REST](./Spring/Testes/Teste%20Unitário%20REST.md)
+- [Testes de APIs REST com RestTemplate](./Spring/Testes/RestTemplate.md)
+- [Testes de APIs REST com MockMvc](./Spring/Testes/MockMvc.md)
+- [JsonPath](./Spring/Testes/JsonPath.md)
+- [Hamcrest](./Spring/Testes/Hamcrest.md)
+- [Mockando Usuários](./Spring/Testes/Mockando-Usuários.md)
+- [Anotação Sql](./Spring/Testes/Anotação%20Sql.md)
 
 ## 🤝 Contribua!
 

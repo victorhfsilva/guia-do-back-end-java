@@ -1,4 +1,4 @@
-# Testes Unitários de REST APIs com Spring Boot
+# Testes de REST APIs com o MockMvc
 
 Os testes unitários são fundamentais para garantir que os controllers em sua aplicação Spring funcionem corretamente, isolando-os de outras partes do sistema. Com o Spring Boot, você pode escrever testes unitários eficazes para seus controllers usando o `MockMvc`. 
 
