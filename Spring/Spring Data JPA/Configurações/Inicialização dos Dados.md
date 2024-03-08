@@ -35,3 +35,13 @@ spring.jpa.defer-datasource-initialization=true
 ```
 
 Quando essa configuração é habilitada, o Spring Boot adia a inicialização do datasource até o Hibernate estar totalmente configurado e pronto para usá-lo. Isso pode ser útil em cenários em que a configuração do Hibernate depende de outras configurações ou beans do Spring que precisam ser totalmente inicializados primeiro.
+
+**4. Habilitar a inicialização por script:**
+
+Para habilitar a inicialização do banco de dados por scripts basta utilizar:
+
+```
+spring.sql.init.mode=always
+```
+
+Esta opção é habilitada por padrão em bancos de dados em memória como o H2.
