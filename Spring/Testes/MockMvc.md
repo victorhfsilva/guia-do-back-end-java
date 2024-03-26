@@ -28,9 +28,9 @@ Use o `MockMvc` para simular requisições GET ao controller. Você pode verific
 ```java
 @Test
 public void testGetUser() throws Exception {
-    mockMvc.perform(get("/users/1"))
-           .andExpect(status().isOk())
-           .andExpect(content().string("Usuário com ID 1"));
+    mockMvc.perform(MockMvcRequestBuilders.get("/users/1"))
+           .andExpect(MockMvcResultMatchers.status().isOk())
+           .andExpect(MockMvcResultMatchers.content().string("Usuário com ID 1"));
 }
 ```
 
@@ -44,11 +44,11 @@ Da mesma forma, você pode simular requisições POST e fornecer dados de entrad
 public void testCreateUser() throws Exception {
     User user = new User();
     
-    mockMvc.perform(post("/users")
+    mockMvc.perform(MockMvcRequestBuilders.post("/users")
             .contentType("application/json")
             .content(objectMapper.writeValueAsString(user)))
-           .andExpect(status().isOk())
-           .andExpect(content().string("Usuário criado com sucesso"));
+           .andExpect(MockMvcResultMatchers.status().isOk())
+           .andExpect(MockMvcResultMatchers.content().string("Usuário criado com sucesso"));
 }
 ```
 
@@ -59,10 +59,10 @@ Se o controller retorna JSON, você pode verificar o conteúdo JSON retornado.
 ```java
 @Test
 public void testGetUserAsJson() throws Exception {
-    mockMvc.perform(get("/users/1").accept(MediaType.APPLICATION_JSON))
-           .andExpect(status().isOk())
-           .andExpect(jsonPath("$.id").value(1))
-           .andExpect(jsonPath("$.name").value("Alice"));
+    mockMvc.perform(MockMvcRequestBuilders.get("/users/1").accept(MediaType.APPLICATION_JSON))
+           .andExpect(MockMvcResultMatchers.status().isOk())
+           .andExpect(MockMvcResultMatchers.jsonPath("$.id").value(1))
+           .andExpect(MockMvcResultMatchers.jsonPath("$.name").value("Alice"));
 }
 ```
 
@@ -73,8 +73,8 @@ Verifique se o controller redireciona corretamente.
 ```java
 @Test
 public void testRedirectToPage() throws Exception {
-    mockMvc.perform(get("/redirect"))
-           .andExpect(status().is3xxRedirection())
-           .andExpect(redirectedUrl("/targetPage"));
+    mockMvc.perform(MockMvcRequestBuilders.get("/redirect"))
+           .andExpect(MockMvcResultMatchers.status().is3xxRedirection())
+           .andExpect(MockMvcResultMatchers.redirectedUrl("/targetPage"));
 }
 ```

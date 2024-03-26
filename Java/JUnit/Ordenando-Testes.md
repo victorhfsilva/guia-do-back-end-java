@@ -15,7 +15,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.MethodOrderer.*;
 import org.junit.jupiter.api.Order;
 
-@TestMethodOrder(OrderAnnotation.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class MyTest {
 
     @Test
@@ -46,7 +46,7 @@ Usando esta estratégia, os testes são ordenados pelo nome do método.
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.MethodOrderer.*;
 
-@TestMethodOrder(MethodName.class)
+@TestMethodOrder(MethodOrderer.MethodName.class)
 public class MyTest {
 
     @Test
@@ -74,7 +74,7 @@ Usando esta estratégia, os testes são executados em ordem aleatória.
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.MethodOrderer.*;
 
-@TestMethodOrder(Random.class)
+@TestMethodOrder(MethodOrderer.Random.class)
 public class MyTest {
 
     @Test
@@ -102,7 +102,7 @@ Usando esta estratégia, os testes são ordenados pelo nome de exibição especi
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.MethodOrderer.*;
 
-@TestMethodOrder(DisplayName.class)
+@TestMethodOrder(MethodOrderer.DisplayName.class)
 public class MyTest {
 
     @DisplayName("Teste 1")
