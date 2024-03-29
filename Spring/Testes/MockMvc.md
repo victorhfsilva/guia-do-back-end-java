@@ -21,6 +21,29 @@ public class UserControllerTest {
 }
 ```
 
+Outra forma de injetar as dependências dos controladores em testes unitários é através do `@WebMVCTest`. Esta anotação já provê o Object Mapper e o MockMvc. Ao contrário do `@SpringBootTest` ela não provê toda a aplicação, apenas os controladores ou o controlador especificado.
+
+```java
+@ExtendWith(SpringExtension.class)
+@WebMvcTest(controllers = RegisterRestController.class)
+class RegisterRestControllerTest {
+  @Autowired
+  private MockMvc mockMvc;
+
+  @Autowired
+  private ObjectMapper objectMapper;
+
+  @MockBean
+  private RegisterUseCase registerUseCase;
+
+  @Test
+  void whenValidInput_thenReturns200() throws Exception {
+    mockMvc.perform(...);
+  }
+
+}
+```
+
 ## Testando Requisições GET
 
 Use o `MockMvc` para simular requisições GET ao controller. Você pode verificar o status da resposta e o conteúdo retornado.

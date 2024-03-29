@@ -123,4 +123,3 @@ public class Person extends BaseEntity {
 }
 ```
 Essas estratégias determinam como as classes e as tabelas do banco de dados se relacionam em uma hierarquia de herança. A escolha da estratégia depende das necessidades específicas do seu aplicativo e da estrutura da hierarquia de herança. Certifique-se de selecionar a estratégia mais apropriada com base nas características das classes e dos dados a serem armazenados.
-

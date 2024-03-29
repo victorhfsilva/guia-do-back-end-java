@@ -11,7 +11,7 @@ Os testes de integração de repositórios Spring são importantes para garantir
    - Para isto basta incluir as configurações do banco de dados de teste em um arquivo *application-test.properties* e então definir que estará utilizando este profile nos testes:
 
    ```java
-   @SpringBootTest
+   @DataJpaTest
    @ActiveProfiles("test")
    public class RepositoryTest{
         //Testes
@@ -49,7 +49,7 @@ Os testes de integração de repositórios Spring são importantes para garantir
 
 ```java
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@DataJpaTest
 public class UserRepositoryIntegrationTest {
 
     @Autowired

@@ -37,6 +37,16 @@ Exemplo:
 private Long id;
 ```
 
+```java
+@Id
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequence-generator")
+@GenericGenerator(
+    name = "sequence-generator",
+    strategy = "org.hibernate.id.enhanced.SequenceStyleGenerator"
+)
+private Long id;
+```
+
 ## **4. GenerationType.TABLE:**
 - Usa uma tabela de banco de dados específica para armazenar valores gerados para as chaves primárias.
 - Mais portátil do que `GenerationType.IDENTITY`, mas menos eficiente.
@@ -49,6 +59,17 @@ Exemplo:
 private Long id;
 ```
 
+```java
+    @Id
+    @GeneratedValue(strategy = GenerationType.TABLE, 
+      generator = "table-generator")
+    @TableGenerator(name = "table-generator", 
+            table = "ids", 
+            pkColumnName = "seq_id", 
+            valueColumnName = "seq_value")
+    private Long id;
+```
+
 ## **5. GenerationType.NONE:**
 - Nenhuma geração automática é realizada; o aplicativo é responsável por definir o valor da chave primária antes de inserir a entidade no banco de dados.
 
@@ -58,3 +79,20 @@ Exemplo:
 @GeneratedValue(strategy = GenerationType.NONE)
 private Long id;
 ```
+
+
+## **6. GenerationType.UUID:**
+
+- Utiliza UUIDs (Universal Unique Identifiers) para gerar valores da chave primária.
+- Garante a unicidade dos identificadores, mesmo em ambientes distribuídos.
+- Não depende do banco de dados subjacente e pode ser implementado em qualquer banco de dados.
+
+Exemplo:
+```java
+@Id
+@GeneratedValue(generator = "uuid")
+@GenericGenerator(name = "uuid", strategy = "org.hibernate.id.UUIDGenerator")
+private UUID id;
+```
+
+Essa estratégia é especialmente útil em cenários onde a geração de chaves primárias deve ser independente do banco de dados e garantir a unicidade dos identificadores. É amplamente adotada em sistemas distribuídos e em ambientes de microsserviços devido à sua robustez e portabilidade.
