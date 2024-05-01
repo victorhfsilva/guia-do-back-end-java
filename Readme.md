@@ -268,6 +268,12 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Mockando Usuários](./Spring/Testes/Mockando-Usuários.md)
 - [Anotação Sql](./Spring/Testes/Anotação%20Sql.md)
 
+### Arquitetura
+
+- [Padrão MVC](./Arquitetura/Padrão%20MVC.md)
+- [Clean Architecture](./Arquitetura/Clean%20Architecture.md)
+- [Arquitetura Hexagonal](./Arquitetura/Arquitetura%20Hexagonal.md)
+
 ## 🤝 Contribua!
 
 Este guia está em constante crescimento, e sua contribuição é mais do que bem-vinda! Se você tem dicas, exemplos adicionais ou quer corrigir algo, sinta-se à vontade para abrir uma issue ou enviar um pull request. Vamos tornar este guia ainda mais incrível!
