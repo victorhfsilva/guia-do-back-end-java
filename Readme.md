@@ -166,6 +166,19 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Template](./Design%20Patterns/Padrões%20Comportamentais/Template.md)
 - [Visitor](./Design%20Patterns/Padrões%20Comportamentais/Visitor.md)
 
+
+### SOLID
+
+- [S - Princípio da Responsabilidade Única](./SOLID/S%20-%20Princípio%20da%20Responsabilidade%20Única.md)
+- [O - Princípio Aberto-Fechado](./SOLID/O%20-%20Princípio%20Aberto-Fechado.md)
+- [L - Princípio da Substituição de Liskov](./SOLID/L%20-%20Princípio%20da%20Substituição%20de%20Liskov.md)
+- [I - Princípio de Segregação de Interface](./SOLID/I%20-%20Princípio%20de%20Segregação%20de%20Interface.md)
+- [D - Princípio de Inversão de Dependências](./SOLID/D%20-%20Princípio%20de%20Inversão%20de%20Dependências.md)
+
+#### Referências
+
+- [SOLID: Alura](https://www.alura.com.br/artigos/solid)
+
 ### Building Tools
 
 - [Gradle](./Build%20Tools/Gradle.md)
@@ -176,6 +189,12 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Maven Repository](https://mvnrepository.com/)
 - [Running Apache Maven](https://maven.apache.org/run.html)
 - [Getting Started with Gradle](https://docs.gradle.org/current/userguide/getting_started_eng.html)
+
+### REST
+
+- [REST](./REST/REST.md)
+- [Boas Práticas APIs REST](./REST/Boas%20Práticas%20APIs%20REST.md)
+- [HATEOAS](./REST/HATEOAS.md)
 
 ### Spring
 
@@ -213,6 +232,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Repositórios Personalizados](./Spring/Spring%20Data%20JPA/Repositórios/Repositórios%20Personalizados.md)
 - [Spring Data Rest](./Spring/Spring%20Data%20JPA/Repositórios/Spring%20Data%20Rest.md)
 - [Transactional](./Spring/Spring%20Data%20JPA/Repositórios/Transactional.mdS)
+- [Spring Data JPA Specifications](./Spring/Spring%20Data%20JPA/Repositórios/Spring%20Data%20Rest.md)
 
 #### Spring Web
 
@@ -224,6 +244,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [ControllerAdvice](./Spring/Spring%20Web/ControllerAdvice.md)
 - [Consumindo uma API com o RestTemplate](./Spring/Spring%20Web/RestTemplate.md)
 - [HttpEntity](./Spring/Spring%20Web/HttpEntity.md)
+- [Spring HATEOAS](./Spring/Spring%20Web/Spring%20HATEOAS.md)
 
 #### Validações
 
