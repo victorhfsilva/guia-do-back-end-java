@@ -1,14 +1,10 @@
 # Configuração do Eureka Server
 
-Configurar um servidor Eureka com Gradle em vez de Maven e utilizando o arquivo `application.properties` para configurações é uma excelente abordagem para muitos desenvolvedores Java.
-
-
 ### Configuração do Servidor Eureka
 
 Abra o arquivo `build.gradle` e garanta que as dependências estejam corretamente configuradas:
 
 ```gradle
-
 dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -38,7 +34,6 @@ eureka.client.fetchRegistry=false
 eureka.server.enableSelfPreservation=false
 
 # Define a URL base para onde o servidor Eureka enviará os registros e heartbeats.
-# É crucial em ambientes com múltiplos servidores Eureka para sincronização de registro.
 eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
 ```
 
