@@ -1,25 +1,6 @@
+# Configurando Rotas no Spring Cloud Gateway
+
 Configurar rotas em uma API Gateway usando o Spring Cloud Gateway através de arquivos `application.properties` ou `application.yml` é uma abordagem flexível e centralizada para definir como as requisições devem ser roteadas para diferentes microserviços. Vou mostrar como você pode fazer isso detalhadamente.
-
-### Configuração Inicial do Projeto
-
-Assumindo que você já tenha um projeto Spring Boot configurado com o Spring Cloud Gateway, o primeiro passo é garantir que as dependências necessárias estão incluídas. No `pom.xml` (para Maven) ou no `build.gradle` (para Gradle), você deve ter:
-
-**Maven:**
-```xml
-<dependencies>
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-gateway</artifactId>
-    </dependency>
-</dependencies>
-```
-
-**Gradle:**
-```gradle
-dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
-}
-```
 
 ### Configuração de Rotas no `application.yml`
 

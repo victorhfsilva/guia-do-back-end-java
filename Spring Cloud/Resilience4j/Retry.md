@@ -53,8 +53,6 @@ resilience4j.retry:
 Para aplicar o Retry a métodos específicos em seus serviços, você pode usar a anotação `@Retry`. Por exemplo, para proteger um método que faz uma chamada de rede:
 
 ```java
-import io.github.resilience4j.retry.annotation.Retry;
-
 public class NetworkService {
 
     @Retry(name = "retryService")
@@ -70,8 +68,6 @@ public class NetworkService {
 Para lidar com falhas após esgotadas todas as tentativas de retry, você pode definir um método de fallback:
 
 ```java
-import io.github.resilience4j.retry.annotation.Retry;
-
 public class NetworkService {
 
     @Retry(name = "retryService", fallbackMethod = "fallbackMethod")

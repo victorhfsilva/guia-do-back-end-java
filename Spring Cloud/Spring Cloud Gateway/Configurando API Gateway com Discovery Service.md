@@ -40,10 +40,6 @@ Essas configurações habilitam a integração do Gateway com o Eureka e ativam 
 Na sua classe principal do Spring Boot, certifique-se de que as anotações `@SpringBootApplication` e `@EnableEurekaClient` estão presentes para habilitar a funcionalidade de cliente Eureka:
 
 ```java
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-
 @SpringBootApplication
 @EnableDiscoveryClient
 public class GatewayApplication {
@@ -54,7 +50,7 @@ public class GatewayApplication {
 }
 ```
 
-### Configurar Rotas Dinâmicas
+### Configurar Rotas Estáticas
 
 Com a descoberta de serviços ativada, o Gateway pode rotear automaticamente para serviços registrados no Eureka. Se necessário, você pode configurar rotas estáticas ou adicionais no arquivo de configuração ou diretamente no código:
 

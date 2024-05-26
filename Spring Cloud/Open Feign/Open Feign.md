@@ -42,10 +42,6 @@ public class MyApplication {
 Defina uma interface Feign para abstrair as chamadas HTTP para um serviço externo. Use anotações do Spring MVC, como `@GetMapping` ou `@PostMapping`, para mapear essas chamadas. Por exemplo, para consumir um serviço de usuários:
 
 ```java
-import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-
 @FeignClient(name = "userService", url = "http://localhost:8080")
 public interface UserClient {
 

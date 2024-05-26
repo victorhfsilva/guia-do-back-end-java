@@ -1,7 +1,6 @@
-### Registro de Clientes Eureka
+# Registro de Clientes Eureka
 
 Configurar o registro de clientes em um servidor Eureka é um passo fundamental para permitir a comunicação e a descoberta de serviços em uma arquitetura de microserviços baseada no Spring Cloud. 
-
 
 ### Configuração do Cliente Eureka
 

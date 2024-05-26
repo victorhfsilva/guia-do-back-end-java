@@ -234,6 +234,16 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Transactional](./Spring/Spring%20Data%20JPA/Repositórios/Transactional.mdS)
 - [Spring Data JPA Specifications](./Spring/Spring%20Data%20JPA/Repositórios/Spring%20Data%20Rest.md)
 
+#### Spring Data MongoDB
+
+- [Entidades](./Spring/Spring%20Data%20MongoDB/Entidades.md)
+- [Repositórios](./Spring/Spring%20Data%20MongoDB/Repositórios.md)
+- [Consultas Derivadas](./Spring/Spring%20Data%20MongoDB/Consultas%20Derivadas.md)
+- [Consultas Personalizadas](./Spring/Spring%20Data%20MongoDB/Consultas%20Personalizadas.md)
+- [Agregações](./Spring/Spring%20Data%20MongoDB/Agregações.md)
+- [Paginação e Ordenação](./Spring/Spring%20Data%20MongoDB/Paginação%20e%20Ordenação.md)
+- [Testes](./Spring/Spring%20Data%20MongoDB/Testes.md)
+
 #### Spring Web
 
 - [RestController](./Spring/Spring%20Web/RestController.md)
@@ -267,6 +277,31 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Hamcrest](./Spring/Testes/Hamcrest.md)
 - [Mockando Usuários](./Spring/Testes/Mockando-Usuários.md)
 - [Anotação Sql](./Spring/Testes/Anotação%20Sql.md)
+
+### Spring Cloud
+
+#### Spring Cloud Netflix Eureka
+
+- [Configuração do Eureka Server](./Spring%20Cloud/Spring%20Cloud%20Netflix%20Eureka/Configuração%20do%20Eureka%20Server.md)
+- [Configurações de Segurança do Servidor](./Spring%20Cloud/Spring%20Cloud%20Netflix%20Eureka/Configuração%20de%20Segurança%20do%20Servidor.md)
+- [Registro do Eureka Client](./Spring%20Cloud/Spring%20Cloud%20Netflix%20Eureka/Registro%20do%20Eureka%20Client.md)
+- [Configurações do Application Properties](./Spring%20Cloud/Spring%20Cloud%20Netflix%20Eureka/Cofigurações%20do%20Application%20Properties.md)
+
+#### Open Feign
+
+- [Open Feign](./Spring%20Cloud/Open%20Feign/Open%20Feign.md)
+- [Consumindo Microsserviços com o Feign Client](./Spring%20Cloud/Open%20Feign/Consumindo%20Microsserviços%20com%20o%20Feign%20Client.md)
+
+#### Spring Cloud Gateway
+
+- [Configurando API Gateway com Discovery Service](./Spring%20Cloud/Spring%20Cloud%20Gateway/Configurando%20API%20Gateway%20com%20Discovery%20Service.md)
+- [Configurando Rotas da API Gateway](./Spring%20Cloud/Spring%20Cloud%20Gateway/Configurando%20Rotas.md)
+
+### Resilience4j
+
+- [Circuit Breaker](./Spring%20Cloud/Resilience4j/Circuit%20Breaker.md)
+- [Retry](./Spring%20Cloud/Resilience4j/Retry.md)
+- [Rate Limiter](./Spring%20Cloud/Resilience4j/Rate%20Limiter.md)
 
 ### Arquitetura
 

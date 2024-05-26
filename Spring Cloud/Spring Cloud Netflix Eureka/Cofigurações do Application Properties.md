@@ -70,7 +70,7 @@ eureka.instance.metadataMap.region=east
 eureka.client.loadbalancer.cacheUpdateIntervalSeconds=15
 ```
 
-### 5. Considerações Finais
+### Considerações Finais
 
 Ao ajustar seu `application.properties`, sempre leve em consideração o ambiente em que a aplicação está sendo executada: desenvolvimento, teste ou produção. Em ambientes de produção, considere utilizar `application-profile.properties` para definir configurações específicas para cada ambiente (por exemplo, `application-prod.properties` para produção), o que pode ser ativado usando perfis Spring (`spring.profiles.active=prod`).
 

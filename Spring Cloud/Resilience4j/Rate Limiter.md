@@ -48,8 +48,6 @@ resilience4j.ratelimiter:
 Para aplicar o Rate Limiter a métodos específicos em seus serviços, você pode usar a anotação `@RateLimiter`. Por exemplo, para proteger um método que chama um serviço externo:
 
 ```java
-import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
-
 public class ExternalService {
 
     @RateLimiter(name = "rateLimiterA")

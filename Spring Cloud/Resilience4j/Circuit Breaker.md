@@ -1,6 +1,6 @@
 # Circuit Breaker do Resilience4j
 
-O Resilience4j é uma biblioteca de tolerância a falhas leve, focada em aplicações Java, inspirada pelo Netflix Hystrix, mas projetada para o Java 8 e funcionalidades posteriores. Ele oferece vários módulos de resiliência, como Circuit Breaker, Rate Limiter, Retry, Bulkhead e TimeLimiter. Este guia se concentrará especificamente no uso do Circuit Breaker do Resilience4j em uma aplicação Spring Boot.
+O Resilience4j é uma biblioteca de tolerância a falhas leve, focada em aplicações Java, inspirada pelo Netflix Hystrix, mas projetada para o Java 8 e funcionalidades posteriores. Ele oferece vários módulos de resiliência, como Circuit Breaker, Rate Limiter, Retry, Bulkhead e TimeLimiter. 
 
 ### Configuração Inicial do Projeto
 
@@ -57,8 +57,6 @@ resilience4j.circuitbreaker:
 Você pode aplicar o Circuit Breaker a métodos específicos usando a anotação `@CircuitBreaker`. Por exemplo, para proteger um método que chama um serviço externo:
 
 ```java
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
-
 public class UserService {
 
     @CircuitBreaker(name = "backendA", fallbackMethod = "fallbackRetrieveUser")
