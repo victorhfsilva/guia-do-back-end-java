@@ -256,6 +256,11 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [HttpEntity](./Spring/Spring%20Web/HttpEntity.md)
 - [Spring HATEOAS](./Spring/Spring%20Web/Spring%20HATEOAS.md)
 
+#### WebSocket 
+
+- [Websocket](./Spring/Websocket/Websocket.md)
+- [Consumindo Websocket com StompJS no React](./Spring/Websocket/Consumindo%20Websockets%20com%20StompJS%20no%20React.md)
+
 #### Validações
 
 - [Hibernate Validator](./Spring/Spring%20Data%20JPA/Validações/Validator.md)
