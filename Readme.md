@@ -266,6 +266,14 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Hibernate Validator](./Spring/Spring%20Data%20JPA/Validações/Validator.md)
 - [Validação de Senhas com o Passay](./Spring/Spring%20Data%20JPA/Validações/Passay.md) 
 
+#### Mappers
+
+- [MapStruct](./Spring/Mappers/MapStruct.md)
+
+#### Logs
+
+- [SLF4J com Lombok](./Spring/Loggers/SLF4J%20com%20Lombok.md)
+
 #### Serialização
 
 - [Jackson](./Spring/Serialização/Jackson.md)
@@ -282,6 +290,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Hamcrest](./Spring/Testes/Hamcrest.md)
 - [Mockando Usuários](./Spring/Testes/Mockando-Usuários.md)
 - [Anotação Sql](./Spring/Testes/Anotação%20Sql.md)
+- [TestContainer](./Spring/Testes/TestContainer.md)
 
 ### Spring Cloud
 
@@ -296,6 +305,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 
 - [Open Feign](./Spring%20Cloud/Open%20Feign/Open%20Feign.md)
 - [Consumindo Microsserviços com o Feign Client](./Spring%20Cloud/Open%20Feign/Consumindo%20Microsserviços%20com%20o%20Feign%20Client.md)
+- [SpringQueryMap](./Spring%20Cloud/Open%20Feign/SpringQueryMap.md)
 
 #### Spring Cloud Gateway
 
@@ -307,6 +317,16 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Circuit Breaker](./Spring%20Cloud/Resilience4j/Circuit%20Breaker.md)
 - [Retry](./Spring%20Cloud/Resilience4j/Retry.md)
 - [Rate Limiter](./Spring%20Cloud/Resilience4j/Rate%20Limiter.md)
+
+### Mensageiria
+
+#### Rabbit-MQ
+
+- [Conceitos Básicos](./Mensageiria/RabbitMQ/Conceitos%20Básicos.md)
+- [Tipos de Exchange](./Mensageiria/RabbitMQ/Tipos%20de%20Exchange.md)
+- [Instalação e Configuração](./Mensageria/RabbitMQ/Instalação%20e%20Configuração.md)
+- [Bindings e Roteamento](./Mensageiria/RabbitMQ/Bindings%20e%20Roteamento.md)
+- [Filas e Mensagens](./Mensageiria/RabbitMQ/Filas%20e%20Mensagens.md)
 
 ### Arquitetura
 
