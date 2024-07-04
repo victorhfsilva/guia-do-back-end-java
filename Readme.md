@@ -324,7 +324,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 
 - [Conceitos Básicos](./Mensageiria/RabbitMQ/Conceitos%20Básicos.md)
 - [Tipos de Exchange](./Mensageiria/RabbitMQ/Tipos%20de%20Exchange.md)
-- [Instalação e Configuração](./Mensageria/RabbitMQ/Instalação%20e%20Configuração.md)
+- [Publicando e consumindo mensagens no RabbitMQ](./Mensageiria/RabbitMQ/Publicando%20e%20consumindo%20mensagens%20no%20RabbitMQ.md)
 - [Bindings e Roteamento](./Mensageiria/RabbitMQ/Bindings%20e%20Roteamento.md)
 - [Filas e Mensagens](./Mensageiria/RabbitMQ/Filas%20e%20Mensagens.md)
 

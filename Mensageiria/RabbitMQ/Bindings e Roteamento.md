@@ -1,4 +1,4 @@
-# Bindings e Roteamento no RabbitMQ
+# Bindings e Roteamento no RabbitMQ com Java
 
 No RabbitMQ, bindings e roteamento são fundamentais para direcionar mensagens de exchanges para filas específicas. Entender como esses mecanismos funcionam é essencial para configurar corretamente o fluxo de mensagens na sua aplicação.
 

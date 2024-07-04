@@ -1,4 +1,4 @@
-# Filas e Mensagens no RabbitMQ
+# Filas e Mensagens no RabbitMQ com Java
 
 O RabbitMQ oferece uma variedade de recursos para criar e gerenciar filas e mensagens.
 
