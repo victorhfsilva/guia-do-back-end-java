@@ -65,7 +65,15 @@ Com o RabbitMQ rodando, agora vamos configurar um projeto Spring Boot para se co
    spring.rabbitmq.port=5672
    spring.rabbitmq.username=guest
    spring.rabbitmq.password=guest
+
+   spring.rabbitmq.listener.simple.retry.enabled=true
+   spring.rabbitmq.listener.simple.retry.max-attempts=4
+   spring.rabbitmq.listener.simple.retry.initial-interval=5000
+   spring.rabbitmq.listener.simple.retry.multiplier=2
+   spring.rabbitmq.listener.simple.retry.max-interval=300000
    ```
+
+   As últimas linhas definem se ele deve repetir a tentativa em caso de falha e a quantidade máxima de tentativas. Além disso elas definem o intervalo de tempo entre tentativas.
 
 3. **Criar configuração do produtor de mensagens  do RabbitMQ:**
 

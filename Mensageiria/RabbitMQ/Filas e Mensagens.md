@@ -74,47 +74,6 @@ public Queue overflowQueue() {
 }
 ```
 
-### Single Active Consumer
-
-Garante que apenas um consumidor esteja ativo por vez, mesmo que vários consumidores estejam ouvindo na fila.
-
-**Configuração de Single Active Consumer:**
-
-```java
-@Bean
-public Queue singleActiveConsumerQueue() {
-    return QueueBuilder.durable("singleActiveConsumerQueue")
-            .withArgument("x-single-active-consumer", true)
-            .build();
-}
-```
-
-### Dead Letter Exchange e Dead Letter Routing Key
-
-- Especifica a exchange e a chave de roteamento para mensagens mortas.
-- Dead Letter Queues (DLQ) são filas para onde as mensagens são redirecionadas quando não podem ser entregues corretamente (por exemplo, após múltiplas tentativas de entrega).
-
-**Configuração:**
-
-```java
-@Bean
-public Queue mainQueueWithDLX() {
-    return QueueBuilder.durable("mainQueueWithDLX")
-            .withArgument("x-dead-letter-exchange", "deadLetterExchange")
-            .withArgument("x-dead-letter-routing-key", "deadLetterKey")
-            .build();
-}
-
-@Bean
-public Queue deadLetterQueue() {
-    return new Queue("deadLetterQueue");
-}
-
-@Bean
-public DirectExchange deadLetterExchange() {
-    return new DirectExchange("deadLetterExchange");
-}
-```
 
 ### Max Length e Max Length Bytes
 
@@ -142,20 +101,21 @@ public Queue maxLengthBytesQueue() {
 }
 ```
 
-### Maximum Priority
+### Single Active Consumer
 
-Define a prioridade máxima das mensagens na fila.
+Garante que apenas um consumidor esteja ativo por vez, mesmo que vários consumidores estejam ouvindo na fila.
 
-**Configuração de Maximum Priority:**
+**Configuração de Single Active Consumer:**
 
 ```java
 @Bean
-public Queue priorityQueue() {
-    return QueueBuilder.durable("priorityQueue")
-            .withArgument("x-max-priority", 10)
+public Queue singleActiveConsumerQueue() {
+    return QueueBuilder.durable("singleActiveConsumerQueue")
+            .withArgument("x-single-active-consumer", true)
             .build();
 }
 ```
+
 
 ### Lazy Mode
 
@@ -172,18 +132,35 @@ public Queue lazyQueue() {
 }
 ```
 
-### Version
+### Dead Letter Exchange e Dead Letter Queue
 
-Especifica a versão da configuração da fila, geralmente usada para migrações e atualizações.
+- Especifica a exchange (DLX) e a chave de roteamento para mensagens mortas.
+- Dead Letter Queues (DLQ) são filas para onde as mensagens são redirecionadas quando não podem ser entregues corretamente (por exemplo, após múltiplas tentativas de entrega).
 
-**Configuração de Version:**
+**Configuração:**
 
 ```java
 @Bean
-public Queue versionedQueue() {
-    return QueueBuilder.durable("versionedQueue")
-            .withArgument("x-queue-version", 1)
+public Queue mainQueueWithDLX() {
+    return QueueBuilder.durable("mainQueueWithDLX")
+            .withArgument("x-dead-letter-exchange", "deadLetterExchange")
+            .withArgument("x-dead-letter-routing-key", "deadLetterKey")
             .build();
+}
+
+@Bean
+public Queue deadLetterQueue() {
+    return new Queue("deadLetterQueue");
+}
+
+@Bean
+public DirectExchange deadLetterExchange() {
+    return new DirectExchange("deadLetterExchange");
+}
+
+@Bean
+public Binding deadLetterBinding(Queue deadLetterQueue, DirectExchange deadLetterExchange){
+    return BindingBuilder.bind(deadLetterQueue).to(deadLetterExchange).with("deadLetterKey");
 }
 ```
 
