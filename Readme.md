@@ -328,6 +328,17 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Bindings e Roteamento](./Mensageiria/RabbitMQ/Bindings%20e%20Roteamento.md)
 - [Filas e Mensagens](./Mensageiria/RabbitMQ/Filas%20e%20Mensagens.md)
 
+#### Kafka
+
+- [Arquitetura do Kafka](./Mensageiria/Kafka/Arquitetura%20do%20Kafka.md)
+- [Instalação e Configuração](./Mensageiria/Kafka/Instalação%20e%20Configuração.md)
+- [Instalação com Docker](./Mensageiria/Kafka/Instalação%20com%20Docker.md)
+- [Operações Básicas](./Mensageiria/Kafka/Operações%20Básicas.md)
+- [Criando Produtores em Java](./Mensageiria/Kafka/Criando%20Produtores%20com%20Java.md)
+- [Criando Consumidores em Java](./Mensageiria/Kafka/Criando%20Consumidores%20com%20Java.md)
+- [Keys e Partitions](./Mensageiria/Kafka/Keys%20e%20Partitions.md)
+- [Consumer Groups](./Mensageiria/Kafka/Consumer%20Groups.md)
+
 ### Arquitetura
 
 - [Padrão MVC](./Arquitetura/Padrão%20MVC.md)
