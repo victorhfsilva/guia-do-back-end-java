@@ -338,6 +338,7 @@ Não se sinta pressionado a seguir cada passo desta trilha rigidamente. O desenv
 - [Criando Consumidores em Java](./Mensageiria/Kafka/Criando%20Consumidores%20com%20Java.md)
 - [Keys e Partitions](./Mensageiria/Kafka/Keys%20e%20Partitions.md)
 - [Consumer Groups](./Mensageiria/Kafka/Consumer%20Groups.md)
+- [Configuração Spring for Kafka](./Mensageiria/Kafka/Configuração%20Spring%20for%20Kafka.md)
 
 ### Arquitetura
 
